@@ -1,14 +1,14 @@
 import { createGlobalStyle } from 'styled-components';
-
+import { colors } from './variables'; 
 
 const GlobalStyle = createGlobalStyle`
   
   body { 
     margin: 0;
     padding: 0;
-    background: #FFF;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
+    background: ${colors.white};
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
   }
 
   #root {
